@@ -23,5 +23,7 @@ Number.prototype.pad = function(n) {
     updateClock();
     window.setInterval("updateClock()", 1);
   }
-  
-  // END CLOCK SCRIPT
+  function init() {
+    initClock();
+  }
+  window.onload = init;
